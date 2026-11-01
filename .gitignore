@@ -1,0 +1,7 @@
+# Compiled programs
+main
+main.exe
+*.o
+
+# IDE settings
+.vscode/
