@@ -1,14 +1,10 @@
 # Shopping Cart Simulator in C
 
-My first mini software project, programmed in C.
-
-## About
-
-A simple shopping cart simulator built using the C programming language. This project is intended to help me learn programming fundamentals and version control with Git and GitHub.
+A mini software project, programmed in C. Made to kickstart my journey in tech, this program helps me learn and practice programming fundamentals, as well as version control with Git and GitHub. 
 
 ## Features
 
-- Vertically aligned sales list using %-(n)s | %(n)d, "string", float
+- Vertically aligned sales list using %-(n)s | %(n)d, "string", integer
 - Multiplication arithmetic (price * quantity function)
 - "Please wait..." 6-second time delay
 
@@ -39,7 +35,3 @@ On macOS or Linux:
 ```bash
 ./shopping-cart
 ```
-
-## Project Status
-
-Complete.
