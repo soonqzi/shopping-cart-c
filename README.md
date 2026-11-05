@@ -48,7 +48,7 @@ It should display the current version of the C compiler you're using.
 - Right click on gcc.exe > properties > copy the file location.
 - Search for 'environment variables' in your Windows system, and click on 'Edit the system environment variables'.
 - Click environment variables > select path > edit > new, then paste the path (its most likely C:\msys54\ucrt64\bin).
-Press OK and you're done.
+  Press OK and you're done.
 
 ### macOS
 
@@ -105,10 +105,24 @@ gcc -Wall -Wextra -std=c11 main.c -o shopping-cart
 Windows (GCC/MinGW):
 
 ```
-gcc -Wall -Wextra -std=c11 main.c -o shopping-cart.exe .\shopping-cart.exe
+gcc -Wall -Wextra -std=c11 main.c -o shopping-cart.exe
+```
+
+```
+.\shopping-cart.exe
 ```
 
 Linux/macOS:
+
+```
+./shopping-cart
+```
+
+Linux:
+
+```
+gcc -Wall -Wextra -std=c11 main.c -o shopping-cart
+```
 
 ```
 ./shopping-cart
