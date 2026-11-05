@@ -39,14 +39,15 @@ pacman -S mingw-w64-ucrt-x86_64-gcc
 gcc --version
 ```
 
-It should display the current version of the C compiler you're using. 5. Set variable path.
+It should display the current version of the C compiler you're using.
 
-### Find the C compiler in your computer's files.
+5. Set variable path.
 
+- Find the C compiler in your computer's files.
 - Click on msys64 > ucrt64 > bin > gcc.exe
-- right click on gcc.exe > properties > copy the file location.
+- Right click on gcc.exe > properties > copy the file location.
 - Search for 'environment variables' in your Windows system, and click on 'Edit the system environment variables'.
-- click environment variables > select path > edit > new, then paste the path (its most likely C:\msys54\ucrt64\bin).
+- Click environment variables > select path > edit > new, then paste the path (its most likely C:\msys54\ucrt64\bin).
 Press OK and you're done.
 
 ### macOS
