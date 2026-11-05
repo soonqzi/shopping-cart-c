@@ -1,4 +1,4 @@
-# Compiled programs
+# compiled programs
 main
 main.exe
 *.o
@@ -6,3 +6,13 @@ main.exe
 
 # IDE settings
 .vscode/
+
+# compiled executables
+shopping-cart
+shopping-cart.exe
+
+# object files
+*.o
+
+# debug files
+*.out
