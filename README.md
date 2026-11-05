@@ -100,9 +100,9 @@ cd shopping-cart-c
 gcc -Wall -Wextra -std=c11 main.c -o shopping-cart
 ```
 
-4. Run the application
+4. Run the application.
 
-Windows (GCC/MinGW):
+### Windows (GCC/MinGW):
 
 ```
 gcc -Wall -Wextra -std=c11 main.c -o shopping-cart.exe
@@ -112,13 +112,13 @@ gcc -Wall -Wextra -std=c11 main.c -o shopping-cart.exe
 .\shopping-cart.exe
 ```
 
-Linux/macOS:
+### Linux/macOS:
 
 ```
 ./shopping-cart
 ```
 
-Linux:
+### Linux:
 
 ```
 gcc -Wall -Wextra -std=c11 main.c -o shopping-cart
