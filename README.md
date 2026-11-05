@@ -88,32 +88,28 @@ sudo apt-get update
 https://github.com/soonqzi/shopping-cart-c.git
 ```
 
-2. Navigate to the project directory
+2. Enter the project folder
 
 ```
 cd shopping-cart-c
-```
+``` 
 
-3. Compile the program
-
-```
-gcc -Wall -Wextra -std=c11 main.c -o shopping-cart
-```
-
-4. Run the application.
+3. Run the application.
 
 ### Windows
 
 ```
-gcc -Wall -Wextra -std=c11 main.c -o shopping-cart.exe
-```
-
-```
-.\shopping-cart.exe
+.\run.bat
 ```
 
 ### Linux/macOS
 
+Give execution permission:
 ```
-./shopping-cart
+chmod +x run.sh
+```
+
+Then 
+```
+./run.sh
 ```

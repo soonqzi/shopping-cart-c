@@ -3,6 +3,14 @@
 #include <string.h>
 #include <windows.h>
 
+#ifdef _WIN32
+#include <windows.h>
+#define sleep_seconds(x) Sleep((x) * 1000)
+#else
+#include <unistd.h>
+#define sleep_seconds(x) sleep(x)
+#endif
+
 int main()
 {
     // SHOPPING CART PROGRAM
@@ -86,7 +94,7 @@ int main()
     if (total > 0)
     {
         printf("\n\nYou've arrived at the self-service counter! Please wait...\n");
-        Sleep(6000);
+        sleep_seconds(5);
         printf("=====================\n");
         printf("Payment complete. \n\nPlease come again. Have a nice day!\n");
     }
