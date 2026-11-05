@@ -8,7 +8,7 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo Starting Soon Qz's Shopping Cart Program...
+echo Starting Soon Qzi's Shopping Cart Program...
 shopping-cart.exe
 
 pause
