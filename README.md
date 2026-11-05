@@ -84,8 +84,8 @@ sudo apt-get update
 
 1. Clone the repository
 
-```git clone
-https://github.com/soonqzi/shopping-cart-c.git
+```
+git clone https://github.com/soonqzi/shopping-cart-c.git
 ```
 
 2. Enter the project folder
